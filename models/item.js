@@ -17,7 +17,11 @@ module.exports = (sequelize, DataTypes) => {
   }
   item.init({
     namaItem: DataTypes.STRING,
-    checklistId: DataTypes.STRING
+    checklistId: DataTypes.STRING,
+    status: {
+      type: DataTypes.ENUM,
+      values: ['undone', 'done']
+    },
   }, {
     sequelize,
     modelName: 'item',
