@@ -1,0 +1,31 @@
+{
+  "name": "javascript-tes",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fakhrizalmus/javascript-tes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fakhrizalmus/javascript-tes/issues"
+  },
+  "homepage": "https://github.com/fakhrizalmus/javascript-tes#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "sequelize": "^6.32.0"
+  }
+}
